@@ -1,101 +1,199 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <title>Reading Group by FudanIMC</title>
-  </head>
+  <title>Computer Vision</title>
+  <meta name="description" content="School of Computer Science, Fudan University">
 
-  <body>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
     <header>
-      <div class="inner">
-        <h1>Reading Group</h1>
-        <h2>IMC@Fudan</h2>
-        <a href="https://github.com/FudanIMC" class="button"><small>Follow me on</small>GitHub</a>
-      </div>
+      <h1 class="title">Computer Vision</h1>
     </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome to IMC@Fudan Reading Group.</h2>
+    <div id="container">
+      <p class="tagline">School of Computer Science, Fudan University</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/FudanCV" class="code">View FudanCV on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h3>
 
 <h3>
-<a name="fall-2014-schedule" class="anchor" href="#fall-2014-schedule"><span class="octicon octicon-link"></span></a>Fall 2014 Schedule<br> Monday 18:30-20:30, Fudan University<br></h3>
+<a name="%E8%AF%BE%E7%A8%8B%E8%AE%B2%E4%B9%89" class="anchor" href="#%E8%AF%BE%E7%A8%8B%E8%AE%B2%E4%B9%89"><span class="octicon octicon-link"></span></a>课程讲义</h3>
 
 <table class="p" cellpadding="5">
   <tr bgcolor="#F5EEC6">
      <th class="bottomborder" align="middle" width="75">Date</th>
-    <th class="bottomborder" align="middle" width="100">Moderator</th>
+    <th class="bottomborder" align="middle" width="100">Lecturer</th>
     <th class="bottomborder" align="middle" width="300">Topic</th>
   </tr>
 
   <tr>
-    <td>Sept 15</td>
-    <td>Sheng Zeng</td>
-    <td>Weakly-Supervised Semantic Segmentation[<a href="#">slides</a>]
+    <td>2014年9月17日</td>
+    <td>陈雁秋</td>
+    <td>引言[<a href="http://10.141.208.19/A1.pdf">slides</a>]
     </td>
   </tr>
 
   <tr  bgcolor="#F5EEC6">
-    <td>Sept 15</td>
-    <td>Dequan Wang</td>
-    <td>Convolutional Neural Network[<a href="#">slides</a>]
+    <td>2014年9月17日</td>
+    <td>陈雁秋</td>
+    <td>图像的数字表示[<a href="http://10.141.208.19/B1.pdf">slides</a>]
     </td>
   </tr>
   
   <tr>
-    <td>Sept 22</td>
-    <td>Ningyi Deng</td>
-    <td>Salient Region Detection[<a href="#">slides</a>]
+    <td>2014年9月17日</td>
+    <td>陈雁秋</td>
+    <td>直线检测[<a href="http://10.141.208.19/C1.pdf">slides</a>]
     </td>
   </tr>
 
   <tr  bgcolor="#F5EEC6">
-    <td>Sept 22</td>
-    <td>Qipeng Guo</td>
-    <td>Person Re-Identification[<a href="#">slides</a>]
+    <td>2014年9月24日</td>
+    <td>陈雁秋</td>
+    <td>边缘检测[<a href="http://10.141.208.19/C2.pdf">slides</a>]
     </td>
   </tr>
   
   <tr>
-    <td>Sept 29</td>
-    <td>Hao Guan</td>
-    <td>Video Object Tracking[<a href="#">slides</a>]
+    <td>2014年9月24日</td>
+    <td>陈雁秋</td>
+    <td>目标检测[<a href="http://10.141.208.19/C3.pdf">slides</a>]
     </td>
   </tr>
 
   <tr  bgcolor="#F5EEC6">
-    <td>Sept 29</td>
-    <td>Guangzhen Zhou</td>
-    <td>Deformable Parts Model[<a href="#">slides</a>]
+    <td>2014年9月24日</td>
+    <td>陈雁秋</td>
+    <td>图像分割[<a href="http://10.141.208.19/D1.pdf">slides</a>]
     </td>
   </tr>
   
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>目标检测[<a href="http://10.141.208.19/C3.pdf">slides</a>]
+    </td>
+  </tr>
+
+  <tr  bgcolor="#F5EEC6">
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>图像分割[<a href="http://10.141.208.19/D1.pdf">slides</a>]
+    </td>
+  </tr>
+  
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>目标识别[<a href="http://10.141.208.19/E1.pdf">slides</a>]
+    </td>
+  </tr>
+
+  <tr  bgcolor="#F5EEC6">
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>形状特征的提取[<a href="http://10.141.208.19/F1.pdf">slides</a>]
+    </td>
+  </tr>
+  
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>纹理特征的提取[<a href="http://10.141.208.19/F2.pdf">slides</a>]
+    </td>
+  </tr>
+
+  <tr  bgcolor="#F5EEC6">
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>骨架的提取[<a href="http://10.141.208.19/F3.pdf">slides</a>]
+    </td>
+  </tr>
+  
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>光学成像[<a href="http://10.141.208.19/G1.pdf">slides</a>]
+    </td>
+  </tr>
+
+  <tr  bgcolor="#F5EEC6">
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>光谱与颜色[<a href="http://10.141.208.19/G2.pdf">slides</a>]
+    </td>
+  </tr>
+  
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>针孔程序[<a href="http://10.141.208.19/G3.pdf">slides</a>]
+    </td>
+  </tr>
+
+  <tr  bgcolor="#F5EEC6">
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>骨架的提取[<a href="http://10.141.208.19/G4.pdf">slides</a>]
+    </td>
+  </tr>
+  
+  <tr>
+    <td>*</td>
+    <td>陈雁秋</td>
+    <td>纹理特征的提取[<a href="http://10.141.208.19/G5.pdf">slides</a>]
+    </td>
+  </tr>
 
 </table>
 
-        </section>
+<h3>
+<a name="%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99" class="anchor" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="octicon octicon-link"></span></a>参考资料</h3>
 
-        <aside id="sidebar">
-
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-          
-        </aside>
+<ul>
+<li><p><a href="http://10.141.208.19/CMV.pdf">Computer.and.Machine.Vision,.Theory,.Algorithms,.Practicalities,.E.R.Davies,.4ed,.AP,.2012</a></p></li>
+<li><p><a href="http://10.141.208.19/CVAA.pdf">Computer.Vision.A.Modern.Approach,.David.A..Forsyth,.Jean.Ponce,.2ed,.PH,.2012</a></p></li>
+</ul>
+        </article>
       </div>
     </div>
+    <footer>
+      <div class="owner">
+
+      <p><a href="https://github.com/FudanCV" class="avatar"><img src="https://avatars0.githubusercontent.com/u/8800663?v=2&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/FudanCV">FudanCV</a> on <a href="https://www.github.com">GitHub</a></p>
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/FudanCV/fudancv.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/FudanCV/fudancv.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
   
-  </body>
+</body>
 </html>
